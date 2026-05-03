@@ -47,9 +47,10 @@ const HomeHome = () => {
       backgroundImage: `url(${fondoJpg})`,
       backgroundSize: 'cover',
       backgroundAttachment: 'fixed',
+      backgroundPosition: 'center',
       minHeight: '100vh',
-      width: '100%',
-      margin: 0,
+      width: '100vw',
+      margin: '0',
       padding: 0,
       fontFamily: 'Arial, sans-serif',
       overflowX: 'hidden'
@@ -71,8 +72,7 @@ const HomeHome = () => {
         <div style={{ display: 'flex', alignItems: 'center' }}>
           <img src={logoEscuelaJpg} alt="Logo Escuela" style={{ width: '2cm', height: '2cm', objectFit: 'contain' }} />
           <div style={{ marginLeft: '10px', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
-            <span style={{ fontSize: '0.9rem' }}>I.S.F.D. Escuela Normal</span>
-            <span style={{ fontSize: '0.9rem' }}>Superior Manuel Belgrano</span>
+            <span style={{ fontSize: '0.9rem', fontWeight: 'bold' }}>I.S.F.D. Escuela Normal Superior Manuel Belgrano</span>
             <span style={{ fontSize: '0.9rem' }}>Gómez Llueca 950 - Simoca – Tucumán</span>
           </div>
         </div>
