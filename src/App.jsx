@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import HomeHome from './pages/HomeHome';
+import HomeHome from './pages/HomeHome'; // Asegúrate de que esta carpeta exista o cámbialo a './HomeHome'
 // Importarás los otros componentes a medida que los crees
 // import HomeAdministracion from './pages/HomeAdministracion';
 
