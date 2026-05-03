@@ -11,10 +11,10 @@ const HomeHome = () => {
 
   // Definición de secciones para el menú desplegable
   const menuSections = [
-    { name: 'ADMINISTRACIÓN', subButtons: ['Personal', 'Finanzas', 'Documentación'], path: '/administracion' },
-    { name: 'PRECEPTORÍA', subButtons: ['Asistencia', 'Partes Diarios', 'Novedades'], path: '/preceptoria' },
-    { name: 'ALUMNOS', subButtons: ['Inscripciones', 'Exámenes', 'Legajos'], path: '/alumnos' },
-    { name: 'DOCENTES', subButtons: ['Licencias', 'Capacitaciones', 'Designaciones'], path: '/docentes' },
+    { name: 'ADMINISTRACIÓN', subButtons: ['Personal', 'Finanzas', 'Documentación'], path: '/HomeAdministracion' },
+    { name: 'PRECEPTORÍA', subButtons: ['Asistencia', 'Partes Diarios', 'Novedades'], path: '/HomePreceptoria' },
+    { name: 'ALUMNOS', subButtons: ['Inscripciones', 'Exámenes', 'Legajos'], path: '/HomeAlumnos' },
+    { name: 'DOCENTES', subButtons: ['Licencias', 'Capacitaciones', 'Designaciones'], path: '/HomeDocentes' },
   ];
 
   const circleButtonStyle = {
@@ -34,7 +34,7 @@ const HomeHome = () => {
 
   return (
     <div style={{
-      backgroundImage: "url('Fondo 1.png')",
+      backgroundImage: "url('Fondo 1.jpg')",
       backgroundSize: 'cover',
       backgroundAttachment: 'fixed',
       minHeight: '100vh',
@@ -58,7 +58,7 @@ const HomeHome = () => {
         boxSizing: 'border-box'
       }}>
         <div style={{ display: 'flex', alignItems: 'center' }}>
-          <img src="Logo Escuela.png" alt="Logo Escuela" style={{ width: '2cm', height: '2cm', objectFit: 'contain' }} />
+          <img src="Logo Escuela.jpg" alt="Logo Escuela" style={{ width: '2cm', height: '2cm', objectFit: 'contain' }} />
           <div style={{ marginLeft: '10px', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
             <span style={{ fontWeight: 'bold', fontSize: '1.1rem' }}>I.S.F.D. Escuela Normal</span>
             <span style={{ fontSize: '0.9rem' }}>Superior Manuel Belgrano</span>
@@ -116,26 +116,26 @@ const HomeHome = () => {
           Ciclo Lectivo {currentYear}
         </h2>
 
-        <img src="Imagen Inicio.png" alt="Institución" style={{ maxWidth: '90%', height: 'auto', borderRadius: '10px', marginBottom: '40px', boxShadow: '0 4px 15px rgba(0,0,0,0.5)' }} />
+        <img src="Imagen Inicio.jpg" alt="Institución" style={{ maxWidth: '90%', height: 'auto', borderRadius: '10px', marginBottom: '40px', boxShadow: '0 4px 15px rgba(0,0,0,0.5)' }} />
 
         <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '30px', maxWidth: '1000px', margin: '0 auto' }}>
-          <button onClick={() => navigate('/administracion')} style={{ ...circleButtonStyle, backgroundColor: 'red' }}>
-            <img src="Logo ADMINISTRACIÓN.png" alt="ADMINISTRACIÓN" style={{ width: '3cm', height: '3cm' }} />
+          <button onClick={() => navigate('/HomeAdministracion')} style={{ ...circleButtonStyle, backgroundColor: 'red' }}>
+            <img src="Logo ADMINISTRACIÓN.jpg" alt="ADMINISTRACIÓN" style={{ width: '3cm', height: '3cm' }} />
             <span style={{ color: 'white', fontWeight: 'bold', marginTop: '10px' }}>ADMINISTRACIÓN</span>
           </button>
 
-          <button onClick={() => navigate('/preceptoria')} style={{ ...circleButtonStyle, backgroundColor: 'green' }}>
-            <img src="Logo PRECEPTORÍA.png" alt="PRECEPTORÍA" style={{ width: '3cm', height: '3cm' }} />
+          <button onClick={() => navigate('/HomePreceptoria')} style={{ ...circleButtonStyle, backgroundColor: 'green' }}>
+            <img src="Logo PRECEPTORÍA.jpg" alt="PRECEPTORÍA" style={{ width: '3cm', height: '3cm' }} />
             <span style={{ color: 'white', fontWeight: 'bold', marginTop: '10px' }}>PRECEPTORÍA</span>
           </button>
 
-          <button onClick={() => navigate('/alumnos')} style={{ ...circleButtonStyle, backgroundColor: 'blue' }}>
-            <img src="Logo ALUMNOS.png" alt="ALUMNOS" style={{ width: '3cm', height: '3cm' }} />
+          <button onClick={() => navigate('/HomeAlumnos')} style={{ ...circleButtonStyle, backgroundColor: 'blue' }}>
+            <img src="Logo ALUMNOS.jpg" alt="ALUMNOS" style={{ width: '3cm', height: '3cm' }} />
             <span style={{ color: 'white', fontWeight: 'bold', marginTop: '10px' }}>ALUMNOS</span>
           </button>
 
-          <button onClick={() => navigate('/docentes')} style={{ ...circleButtonStyle, backgroundColor: '#00BFFF' }}>
-            <img src="Logo DOCENTES.png" alt="DOCENTES" style={{ width: '3cm', height: '3cm' }} />
+          <button onClick={() => navigate('/HomeDocentes')} style={{ ...circleButtonStyle, backgroundColor: '#00BFFF' }}>
+            <img src="Logo DOCENTES.jpg" alt="DOCENTES" style={{ width: '3cm', height: '3cm' }} />
             <span style={{ color: 'white', fontWeight: 'bold', marginTop: '10px' }}>DOCENTES</span>
           </button>
         </div>
