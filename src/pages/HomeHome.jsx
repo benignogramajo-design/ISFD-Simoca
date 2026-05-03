@@ -51,7 +51,8 @@ const HomeHome = () => {
       width: '100%',
       margin: 0,
       padding: 0,
-      fontFamily: 'Arial, sans-serif'
+      fontFamily: 'Arial, sans-serif',
+      overflowX: 'hidden'
     }}>
       {/* Franja negra superior */}
       <header style={{
@@ -70,9 +71,9 @@ const HomeHome = () => {
         <div style={{ display: 'flex', alignItems: 'center' }}>
           <img src={logoEscuelaJpg} alt="Logo Escuela" style={{ width: '2cm', height: '2cm', objectFit: 'contain' }} />
           <div style={{ marginLeft: '10px', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
-            <span style={{ fontWeight: 'bold', fontSize: '1.1rem' }}>I.S.F.D. Escuela Normal</span>
+            <span style={{ fontSize: '0.9rem' }}>I.S.F.D. Escuela Normal</span>
             <span style={{ fontSize: '0.9rem' }}>Superior Manuel Belgrano</span>
-            <span style={{ fontSize: '0.75rem', marginTop: '2px' }}>Gómez Llueca 950 - Simoca – Tucumán</span>
+            <span style={{ fontSize: '0.9rem' }}>Gómez Llueca 950 - Simoca – Tucumán</span>
           </div>
         </div>
 
@@ -126,7 +127,7 @@ const HomeHome = () => {
           Ciclo Lectivo {currentYear}
         </h2>
 
-        <img src={imagenInicioJpg} alt="Institución" style={{ maxWidth: '90%', height: 'auto', borderRadius: '10px', marginBottom: '40px', boxShadow: '0 4px 15px rgba(0,0,0,0.5)' }} />
+        <img src={imagenInicioJpg} alt="Institución" style={{ maxWidth: '60%', height: 'auto', borderRadius: '10px', marginBottom: '40px', boxShadow: '0 4px 15px rgba(0,0,0,0.5)' }} />
 
         <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '30px', maxWidth: '1000px', margin: '0 auto' }}>
           <button onClick={() => navigate('/HomeAdministracion')} style={{ ...circleButtonStyle, backgroundColor: 'red' }}>
