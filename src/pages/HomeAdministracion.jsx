@@ -24,7 +24,7 @@ const HomeAdministracion = () => {
   const buttonStyle = {
     width: '280px',
     height: '180px',
-    backgroundColor: 'rgba(255, 0, 0, 0.3)', // Rojo claro transparente
+    backgroundColor: 'rgba(255, 0, 0, 0.43)', // Rojo claro transparente
     borderRadius: '25px', // Esquinas circulares
     border: 'none',
     margin: '15px',
