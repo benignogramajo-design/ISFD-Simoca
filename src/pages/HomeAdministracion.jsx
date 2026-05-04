@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import imagenInicioJpg from '../assets/fondos/Imagen Inicio.jpg';
+import imagenInicioJpg from '../assets/fondos/Fondo 1.jpg';
 
 const HomeAdministracion = () => {
   const navigate = useNavigate();
