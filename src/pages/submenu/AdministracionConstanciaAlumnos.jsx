@@ -1,6 +1,5 @@
 import React from 'react';
-import imagenInicioJpg from '../../assets/fondos/Fondo 1
-.jpg';
+import imagenInicioJpg from '../../assets/fondos/Fondo 1.jpg';
 
 const AdministracionConstanciaAlumnos = () => {
   const containerStyle = {
