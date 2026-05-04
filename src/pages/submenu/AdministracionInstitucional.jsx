@@ -1,7 +1,7 @@
 import React from 'react';
-import imagenInicioJpg from '../../assets/fondos/Imagen Inicio.jpg';
+import imagenInicioJpg from '../assets/fondos/Imagen Inicio.jpg';
 
-const AdministracionConstanciasDocentes = () => {
+const AdministracionInstitucional = () => {
   const containerStyle = {
     backgroundImage: `url(${imagenInicioJpg})`,
     backgroundSize: 'cover',
@@ -16,9 +16,9 @@ const AdministracionConstanciasDocentes = () => {
 
   return (
     <div style={containerStyle}>
-      <h1 style={{ color: 'black', marginTop: '50px' }}>REGISTRO Y CONSTANCIAS DE DOCENTES</h1>
+      <h1 style={{ color: 'black', marginTop: '50px' }}>PERSONAL INSTITUCIONAL</h1>
     </div>
   );
 };
 
-export default AdministracionConstanciasDocentes;
+export default AdministracionInstitucional;

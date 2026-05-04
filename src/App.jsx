@@ -2,9 +2,9 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HomeHome from './pages/HomeHome'; // Asegúrate de que esta carpeta exista o cámbialo a './HomeHome'
 import HomeAdministracion from './pages/HomeAdministracion';
-import AdministracionInstitucional from './pages/submenu/AdministracionInstitucional';
-import AdministracionConstanciasDocentes from './pages/submenu/AdministracionConstanciasDocentes';
-import AdministracionConstanciaAlumnos from './pages/submenu/AdministracionConstanciaAlumnos';
+import AdministracionInstitucional from './pages/AdministracionInstitucional';
+import AdministracionConstanciasDocentes from './pages/AdministracionConstanciasDocentes';
+import AdministracionConstanciaAlumnos from './pages/AdministracionConstanciaAlumnos';
 import AdministracionEstadisticas from './pages/submenu/AdministracionEstadisticas';
 
 function App() {
