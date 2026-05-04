@@ -49,7 +49,7 @@ const HomeHome = () => {
       backgroundAttachment: 'fixed',
       backgroundPosition: 'center',
       minHeight: '100vh',
-      width: '100vw',
+      width: '100%',
       margin: '0',
       padding: 0,
       fontFamily: 'Arial, sans-serif',
@@ -73,7 +73,7 @@ const HomeHome = () => {
           <img src={logoEscuelaJpg} alt="Logo Escuela" style={{ width: '2cm', height: '2cm', objectFit: 'contain' }} />
           <div style={{ marginLeft: '10px', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
             <span style={{ fontSize: '0.9rem', fontWeight: 'bold' }}>I.S.F.D. Escuela Normal Superior Manuel Belgrano</span>
-            <span style={{ fontSize: '0.9rem' }}>Gómez Llueca 950 - Simoca – Tucumán</span>
+            <span style={{ fontSize: '0.9rem' }}>Gomez Llueca 950 - Simoca – Tucumán</span>
           </div>
         </div>
 
@@ -121,6 +121,12 @@ const HomeHome = () => {
           )}
         </div>
       </header>
+
+      {/* Botones de Navegación */}
+      <div style={{ display: 'flex', gap: '10px', padding: '10px 15px', justifyContent: 'flex-start' }}>
+        <button onClick={() => navigate(-1)} style={{ backgroundColor: '#28a745', color: 'white', border: 'none', padding: '8px 15px', borderRadius: '5px', cursor: 'pointer', fontWeight: 'bold' }}>← Anterior</button>
+        <button onClick={() => navigate('/')} style={{ backgroundColor: '#00BFFF', color: 'white', border: 'none', padding: '8px 15px', borderRadius: '5px', cursor: 'pointer', fontWeight: 'bold' }}>🏠 Inicio</button>
+      </div>
 
       <main style={{ textAlign: 'center', padding: '20px' }}>
         <h2 style={{ color: 'white', fontSize: '2.2rem', textShadow: '2px 2px 4px rgba(0,0,0,0.9)', margin: '20px 0' }}>
