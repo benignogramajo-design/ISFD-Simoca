@@ -82,17 +82,17 @@ const HomePreceptoria = () => {
       }}>
         <button onClick={() => navigate('/Biologia')} style={{ ...circleButtonStyle, backgroundColor: 'green' }}>
           <img src={logoBiologiaJpg} alt="BIOLOGIA" style={{ width: '3cm', height: '3cm' }} />
-          <span style={{ color: 'white', fontWeight: 'bold', marginTop: '10px' }}>BIOLOGIA</span>
+          <span style={{ color: 'black', fontWeight: 'bold', marginTop: '10px' }}>BIOLOGIA</span>
         </button>
 
         <button onClick={() => navigate('/Primaria')} style={{ ...circleButtonStyle, backgroundColor: '#00BFFF' }}>
           <img src={logoPrimariaJpg} alt="PRIMARIA" style={{ width: '3cm', height: '3cm' }} />
-          <span style={{ color: 'white', fontWeight: 'bold', marginTop: '10px' }}>PRIMARIA</span>
+          <span style={{ color: 'black', fontWeight: 'bold', marginTop: '10px' }}>PRIMARIA</span>
         </button>
 
         <button onClick={() => navigate('/Tecnicatura')} style={{ ...circleButtonStyle, backgroundColor: '#FFD700' }}>
           <img src={logoTecnicaturaJpg} alt="TECNICATURA" style={{ width: '3cm', height: '3cm' }} />
-          <span style={{ color: 'white', fontWeight: 'bold', marginTop: '10px' }}>TECNICATURA</span>
+          <span style={{ color: 'black', fontWeight: 'bold', marginTop: '10px' }}>TECNICATURA</span>
         </button>
       </div>
     </div>
