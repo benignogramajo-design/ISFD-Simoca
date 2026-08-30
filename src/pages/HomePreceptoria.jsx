@@ -2,6 +2,9 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import imagenInicioJpg from '../assets/fondos/Fondo 1.jpg';
 import logoEscuelaJpg from '../assets/logos/Logo Escuela.jpg';
+import logoBiologiaJpg from '../assets/logos/Logo BIOLOGÍA.jpg';
+import logoPrimariaJpg from '../assets/logos/Logo PRIMARIA.jpg';
+import logoTecnicaturaJpg from '../assets/logos/Logo TECNICATURA.jpg';
 
 const HomePreceptoria = () => {
   const navigate = useNavigate();
@@ -22,24 +25,19 @@ const HomePreceptoria = () => {
     overflowX: 'hidden'
   };
 
-  const buttonStyle = {
-    width: '280px',
-    height: '180px',
-    backgroundColor: 'rgba(0, 128, 0, 0.43)', // Verde claro transparente
-    borderRadius: '25px', // Esquinas circulares
+  const circleButtonStyle = {
+    width: '200px',
+    height: '200px',
+    borderRadius: '50%',
     border: 'none',
-    margin: '15px',
-    fontWeight: 'bold', // Texto negrillo
-    color: 'white', // Texto color blanco
-    fontSize: '1.1rem',
-    cursor: 'pointer',
     display: 'flex',
+    flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center',
-    textAlign: 'center',
-    padding: '20px',
+    cursor: 'pointer',
     transition: 'transform 0.2s',
-    boxShadow: '0 4px 10px rgba(0,0,0,0.2)'
+    margin: '10px',
+    boxShadow: '0 4px 8px rgba(0,0,0,0.3)'
   };
 
   return (
@@ -78,18 +76,23 @@ const HomePreceptoria = () => {
         display: 'flex', 
         flexWrap: 'wrap', 
         justifyContent: 'center', 
-        gap: '20px', 
+        gap: '30px', 
         marginTop: '40px',
-        maxWidth: '800px'
+        maxWidth: '1000px'
       }}>
-        <button onClick={() => navigate('/Biologia')} style={buttonStyle}>
-          BIOLOGIA
+        <button onClick={() => navigate('/Biologia')} style={{ ...circleButtonStyle, backgroundColor: 'green' }}>
+          <img src={logoBiologiaJpg} alt="BIOLOGIA" style={{ width: '3cm', height: '3cm' }} />
+          <span style={{ color: 'white', fontWeight: 'bold', marginTop: '10px' }}>BIOLOGIA</span>
         </button>
-        <button onClick={() => navigate('/Primaria')} style={buttonStyle}>
-          PRIMARIA
+
+        <button onClick={() => navigate('/Primaria')} style={{ ...circleButtonStyle, backgroundColor: '#00BFFF' }}>
+          <img src={logoPrimariaJpg} alt="PRIMARIA" style={{ width: '3cm', height: '3cm' }} />
+          <span style={{ color: 'white', fontWeight: 'bold', marginTop: '10px' }}>PRIMARIA</span>
         </button>
-        <button onClick={() => navigate('/Tecnicatura')} style={buttonStyle}>
-          TECNICATURA
+
+        <button onClick={() => navigate('/Tecnicatura')} style={{ ...circleButtonStyle, backgroundColor: '#FFD700' }}>
+          <img src={logoTecnicaturaJpg} alt="TECNICATURA" style={{ width: '3cm', height: '3cm' }} />
+          <span style={{ color: 'white', fontWeight: 'bold', marginTop: '10px' }}>TECNICATURA</span>
         </button>
       </div>
     </div>
