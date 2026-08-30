@@ -19,6 +19,18 @@ import BiologiaProgramaAnual from './pages/submenu/BiologiaProgramaAnual';
 import BiologiaProgramaReal from './pages/submenu/BiologiaProgramaReal';
 import BiologiaLegajoAlumno from './pages/submenu/BiologiaLegajoAlumno';
 import BiologiaRegistroExamen from './pages/submenu/BiologiaRegistroExamen';
+import Primaria from './pages/Primaria';
+import PrimariaDatosAlumnos from './pages/submenu/PrimariaDatosAlumnos';
+import PrimariaCalificacionesAlumnos from './pages/submenu/PrimariaCalificacionesAlumnos';
+import PrimariaLibroMatriz from './pages/submenu/PrimariaLibroMatriz';
+import PrimariaLibroPlanillas from './pages/submenu/PrimariaLibroPlanillas';
+import PrimariaLibroActas from './pages/submenu/PrimariaLibroActas';
+import PrimariaCompendios from './pages/submenu/PrimariaCompendios';
+import PrimariaPlanificacion from './pages/submenu/PrimariaPlanificacion';
+import PrimariaProgramaAnual from './pages/submenu/PrimariaProgramaAnual';
+import PrimariaProgramaReal from './pages/submenu/PrimariaProgramaReal';
+import PrimariaLegajoAlumno from './pages/submenu/PrimariaLegajoAlumno';
+import PrimariaRegistroExamen from './pages/submenu/PrimariaRegistroExamen';
 
 function App() {
   return (
@@ -43,6 +55,18 @@ function App() {
         <Route path="/BiologiaProgramaReal" element={<BiologiaProgramaReal />} />
         <Route path="/BiologiaLegajoAlumno" element={<BiologiaLegajoAlumno />} />
         <Route path="/BiologiaRegistroExamen" element={<BiologiaRegistroExamen />} />
+        <Route path="/Primaria" element={<Primaria />} />
+        <Route path="/PrimariaDatosAlumnos" element={<PrimariaDatosAlumnos />} />
+        <Route path="/PrimariaCalificacionesAlumnos" element={<PrimariaCalificacionesAlumnos />} />
+        <Route path="/PrimariaLibroMatriz" element={<PrimariaLibroMatriz />} />
+        <Route path="/PrimariaLibroPlanillas" element={<PrimariaLibroPlanillas />} />
+        <Route path="/PrimariaLibroActas" element={<PrimariaLibroActas />} />
+        <Route path="/PrimariaCompendios" element={<PrimariaCompendios />} />
+        <Route path="/PrimariaPlanificacion" element={<PrimariaPlanificacion />} />
+        <Route path="/PrimariaProgramaAnual" element={<PrimariaProgramaAnual />} />
+        <Route path="/PrimariaProgramaReal" element={<PrimariaProgramaReal />} />
+        <Route path="/PrimariaLegajoAlumno" element={<PrimariaLegajoAlumno />} />
+        <Route path="/PrimariaRegistroExamen" element={<PrimariaRegistroExamen />} />
       </Routes>
     </Router>
   );

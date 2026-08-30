@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import fondoPrimariaJpg from '../../assets/fondos/Fondo PRIMARIA.jpg';
 import logoEscuelaJpg from '../../assets/logos/Logo Escuela.jpg';
 
-const PrimariaLegajoAlumno = () => {
+const PrimariaPlanificacion = () => {
   const navigate = useNavigate();
 
   const containerStyle = {
@@ -46,10 +46,10 @@ const PrimariaLegajoAlumno = () => {
       </div>
 
       <h1 style={{ color: 'black', marginTop: '50px', fontSize: '2rem', fontWeight: 'bold', textShadow: '2px 2px 4px rgba(255,255,255,0.8)' }}>
-        LEGAJO DE ALUMNO
+        ENTREGA DE PLANIFICACION
       </h1>
     </div>
   );
 };
 
-export default PrimariaLegajoAlumno;
+export default PrimariaPlanificacion;
