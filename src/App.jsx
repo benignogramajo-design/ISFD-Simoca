@@ -31,6 +31,19 @@ import PrimariaProgramaAnual from './pages/submenu/PrimariaProgramaAnual';
 import PrimariaProgramaReal from './pages/submenu/PrimariaProgramaReal';
 import PrimariaLegajoAlumno from './pages/submenu/PrimariaLegajoAlumno';
 import PrimariaRegistroExamen from './pages/submenu/PrimariaRegistroExamen';
+import Tecnicatura from './pages/Tecnicatura';
+import TecnicaturaDatosAlumnos from './pages/submenu/TecnicaturaDatosAlumnos';
+import TecnicaturaCalificacionesAlumnos from './pages/submenu/TecnicaturaCalificacionesAlumnos';
+import TecnicaturaLibroMatriz from './pages/submenu/TecnicaturaLibroMatriz';
+import TecnicaturaLibroPlanillas from './pages/submenu/TecnicaturaLibroPlanillas';
+import TecnicaturaLibroActas from './pages/submenu/TecnicaturaLibroActas';
+import TecnicaturaCompendios from './pages/submenu/TecnicaturaCompendios';
+import TecnicaturaPlanificacion from './pages/submenu/TecnicaturaPlanificacion';
+import TecnicaturaProgramaAnual from './pages/submenu/TecnicaturaProgramaAnual';
+import TecnicaturaProgramaReal from './pages/submenu/TecnicaturaProgramaReal';
+import TecnicaturaLegajoAlumno from './pages/submenu/TecnicaturaLegajoAlumno';
+import TecnicaturaRegistroExamen from './pages/submenu/TecnicaturaRegistroExamen';
+import PreceptoriaCronogramaMesas from './pages/submenu/PreceptoriaCronogramaMesas';
 
 function App() {
   return (
@@ -67,6 +80,19 @@ function App() {
         <Route path="/PrimariaProgramaReal" element={<PrimariaProgramaReal />} />
         <Route path="/PrimariaLegajoAlumno" element={<PrimariaLegajoAlumno />} />
         <Route path="/PrimariaRegistroExamen" element={<PrimariaRegistroExamen />} />
+        <Route path="/Tecnicatura" element={<Tecnicatura />} />
+        <Route path="/TecnicaturaDatosAlumnos" element={<TecnicaturaDatosAlumnos />} />
+        <Route path="/TecnicaturaCalificacionesAlumnos" element={<TecnicaturaCalificacionesAlumnos />} />
+        <Route path="/TecnicaturaLibroMatriz" element={<TecnicaturaLibroMatriz />} />
+        <Route path="/TecnicaturaLibroPlanillas" element={<TecnicaturaLibroPlanillas />} />
+        <Route path="/TecnicaturaLibroActas" element={<TecnicaturaLibroActas />} />
+        <Route path="/TecnicaturaCompendios" element={<TecnicaturaCompendios />} />
+        <Route path="/TecnicaturaPlanificacion" element={<TecnicaturaPlanificacion />} />
+        <Route path="/TecnicaturaProgramaAnual" element={<TecnicaturaProgramaAnual />} />
+        <Route path="/TecnicaturaProgramaReal" element={<TecnicaturaProgramaReal />} />
+        <Route path="/TecnicaturaLegajoAlumno" element={<TecnicaturaLegajoAlumno />} />
+        <Route path="/TecnicaturaRegistroExamen" element={<TecnicaturaRegistroExamen />} />
+        <Route path="/PreceptoriaCronogramaMesas" element={<PreceptoriaCronogramaMesas />} />
       </Routes>
     </Router>
   );

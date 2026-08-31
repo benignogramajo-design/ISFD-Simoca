@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import fondoTecnicaturaJpg from '../../assets/fondos/Fondo TECNICATURA.jpg';
 import logoEscuelaJpg from '../../assets/logos/Logo Escuela.jpg';
 
-const TecnicaturaProgramaAnual = () => {
+const PreceptoriaCronogramaMesas = () => {
   const navigate = useNavigate();
 
   const containerStyle = {
@@ -46,10 +46,10 @@ const TecnicaturaProgramaAnual = () => {
       </div>
 
       <h1 style={{ color: 'black', marginTop: '50px', fontSize: '2rem', fontWeight: 'bold', textShadow: '2px 2px 4px rgba(255,255,255,0.8)' }}>
-        ENTREGA DE PROGRAMA ANUAL
+        CRONOGRAMA MESAS DE EXAMEN
       </h1>
     </div>
   );
 };
 
-export default TecnicaturaProgramaAnual;
+export default PreceptoriaCronogramaMesas;
